@@ -14,6 +14,9 @@ Spring Boot Microservice managing **2 repo-specific tables** and accessing the *
 ## Port
 `8082`
 
+## SQL Schema Files
+- **`schema-repo2-order-service.sql`**: DDL and seed data for Repo 2 specific tables (`customer_orders`, `order_items`).
+
 ## Functional Flow
 1. Receives order creation request with line items.
 2. Validates user existence against common `app_users` table.
